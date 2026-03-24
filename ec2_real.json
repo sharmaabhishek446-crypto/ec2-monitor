@@ -1,0 +1,20 @@
+{
+  "Reservations": [
+    {
+      "Instances": [
+        {"InstanceId": "i-001", "State": "running", "Type": "t2.micro"},
+        {"InstanceId": "i-002", "State": "stopped", "Type": "t2.large"},
+        {"State": "running", "Type": "t2.micro"},
+        {"InstanceId": "i-004", "Type": "t2.medium"},
+        {}
+      ]
+    },
+    {
+      "Instances": [
+        {"InstanceId": "i-101", "State": "terminated", "Type": "t2.micro"},
+        {"InstanceId": "", "State": "running", "Type": ""},
+        {"InstanceId": "i-103", "State": "stopped"}
+      ]
+    }
+  ]
+}
